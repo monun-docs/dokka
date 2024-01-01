@@ -1,0 +1,74 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:io.github.monun.invfx.frame////PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/index.html
+$dokka.location:io.github.monun.invfx.frame/InvFrame///PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-frame/index.html
+$dokka.location:io.github.monun.invfx.frame/InvFrame/list/#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.Boolean#kotlin.Function0[kotlin.collections.List[TypeParam(bounds=[kotlin.Any?])]]#kotlin.Function1[io.github.monun.invfx.frame.InvList[TypeParam(bounds=[kotlin.Any?])],kotlin.Unit]?/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-frame/list.html
+$dokka.location:io.github.monun.invfx.frame/InvFrame/onClickBottom/#kotlin.Function1[org.bukkit.event.inventory.InventoryClickEvent,kotlin.Unit]/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-frame/on-click-bottom.html
+$dokka.location:io.github.monun.invfx.frame/InvFrame/onClickOutside/#kotlin.Function1[org.bukkit.event.inventory.InventoryClickEvent,kotlin.Unit]/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-frame/on-click-outside.html
+$dokka.location:io.github.monun.invfx.frame/InvFrame/onClose/#kotlin.Function1[org.bukkit.event.inventory.InventoryCloseEvent,kotlin.Unit]/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-frame/on-close.html
+$dokka.location:io.github.monun.invfx.frame/InvFrame/onOpen/#kotlin.Function1[org.bukkit.event.inventory.InventoryOpenEvent,kotlin.Unit]/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-frame/on-open.html
+$dokka.location:io.github.monun.invfx.frame/InvFrame/pane/#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.Function1[io.github.monun.invfx.frame.InvPane,kotlin.Unit]/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-frame/pane.html
+$dokka.location:io.github.monun.invfx.frame/InvFrame/slot/#kotlin.Int#kotlin.Int#kotlin.Function1[io.github.monun.invfx.frame.InvSlot,kotlin.Unit]/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-frame/slot.html
+$dokka.location:io.github.monun.invfx.frame/InvList///PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-list/index.html
+$dokka.location:io.github.monun.invfx.frame/InvList/displays/#/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-list/displays.html
+$dokka.location:io.github.monun.invfx.frame/InvList/first/#/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-list/first.html
+$dokka.location:io.github.monun.invfx.frame/InvList/index/#/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-list/--index--.html
+$dokka.location:io.github.monun.invfx.frame/InvList/last/#/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-list/last.html
+$dokka.location:io.github.monun.invfx.frame/InvList/onClickItem/#kotlin.Function4[kotlin.Int,kotlin.Int,kotlin.Pair[TypeParam(bounds=[kotlin.Any?]),org.bukkit.inventory.ItemStack],org.bukkit.event.inventory.InventoryClickEvent,kotlin.Unit]/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-list/on-click-item.html
+$dokka.location:io.github.monun.invfx.frame/InvList/onUpdate/#kotlin.Function2[kotlin.collections.List[kotlin.Pair[TypeParam(bounds=[kotlin.Any?]),org.bukkit.inventory.ItemStack]],kotlin.Int,kotlin.Unit]/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-list/on-update.html
+$dokka.location:io.github.monun.invfx.frame/InvList/page/#/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-list/page.html
+$dokka.location:io.github.monun.invfx.frame/InvList/refresh/#/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-list/refresh.html
+$dokka.location:io.github.monun.invfx.frame/InvList/transform/#kotlin.Function1[TypeParam(bounds=[kotlin.Any?]),org.bukkit.inventory.ItemStack]/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-list/transform.html
+$dokka.location:io.github.monun.invfx.frame/InvPane///PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-pane/index.html
+$dokka.location:io.github.monun.invfx.frame/InvRegion///PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-region/index.html
+$dokka.location:io.github.monun.invfx.frame/InvRegion/contains/#kotlin.Int#kotlin.Int/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-region/contains.html
+$dokka.location:io.github.monun.invfx.frame/InvRegion/height/#/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-region/height.html
+$dokka.location:io.github.monun.invfx.frame/InvRegion/maxX/#/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-region/max-x.html
+$dokka.location:io.github.monun.invfx.frame/InvRegion/maxY/#/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-region/max-y.html
+$dokka.location:io.github.monun.invfx.frame/InvRegion/minX/#/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-region/min-x.html
+$dokka.location:io.github.monun.invfx.frame/InvRegion/minY/#/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-region/min-y.html
+$dokka.location:io.github.monun.invfx.frame/InvRegion/overlaps/#io.github.monun.invfx.frame.InvRegion/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-region/overlaps.html
+$dokka.location:io.github.monun.invfx.frame/InvRegion/overlaps/#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.Int/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-region/overlaps.html
+$dokka.location:io.github.monun.invfx.frame/InvRegion/size/#/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-region/size.html
+$dokka.location:io.github.monun.invfx.frame/InvRegion/width/#/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-region/width.html
+$dokka.location:io.github.monun.invfx.frame/InvSlot///PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-slot/index.html
+$dokka.location:io.github.monun.invfx.frame/InvSlot/item/#/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-slot/item.html
+$dokka.location:io.github.monun.invfx.frame/InvSlot/onClick/#kotlin.Function1[org.bukkit.event.inventory.InventoryClickEvent,kotlin.Unit]/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-slot/on-click.html
+$dokka.location:io.github.monun.invfx.frame/InvSlot/x/#/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-slot/x.html
+$dokka.location:io.github.monun.invfx.frame/InvSlot/y/#/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-slot/y.html
+$dokka.location:io.github.monun.invfx.frame/InvSpace///PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-space/index.html
+$dokka.location:io.github.monun.invfx.frame/InvSpace/item/#kotlin.Int#kotlin.Int#org.bukkit.inventory.ItemStack?/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-space/item.html
+$dokka.location:io.github.monun.invfx.frame/InvSpace/item/#kotlin.Int#kotlin.Int/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-space/item.html
+$dokka.location:io.github.monun.invfx.frame/InvSpace/onClick/#kotlin.Function3[kotlin.Int,kotlin.Int,org.bukkit.event.inventory.InventoryClickEvent,kotlin.Unit]/PointingToDeclaration/invfx-api/io.github.monun.invfx.frame/-inv-space/on-click.html
+$dokka.location:io.github.monun.invfx.util////PointingToDeclaration/invfx-api/io.github.monun.invfx.util/index.html
+$dokka.location:io.github.monun.invfx.util//getValue/io.github.monun.invfx.util.LazyVal[TypeParam(bounds=[kotlin.Any?])]#kotlin.Any?#kotlin.reflect.KProperty[*]/PointingToDeclaration/invfx-api/io.github.monun.invfx.util/get-value.html
+$dokka.location:io.github.monun.invfx.util//getValue/java.lang.ref.WeakReference[TypeParam(bounds=[kotlin.Any?])]#kotlin.Any?#kotlin.reflect.KProperty[*]/PointingToDeclaration/invfx-api/io.github.monun.invfx.util/get-value.html
+$dokka.location:io.github.monun.invfx.util//lazyVal/#/PointingToDeclaration/invfx-api/io.github.monun.invfx.util/lazy-val.html
+$dokka.location:io.github.monun.invfx.util//setValue/io.github.monun.invfx.util.LazyVal[TypeParam(bounds=[kotlin.Any?])]#kotlin.Any?#kotlin.reflect.KProperty[*]#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/invfx-api/io.github.monun.invfx.util/set-value.html
+$dokka.location:io.github.monun.invfx.util//weak/#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/invfx-api/io.github.monun.invfx.util/weak.html
+$dokka.location:io.github.monun.invfx.util/LazyVal///PointingToDeclaration/invfx-api/io.github.monun.invfx.util/-lazy-val/index.html
+$dokka.location:io.github.monun.invfx.util/LazyVal/referent/#/PointingToDeclaration/invfx-api/io.github.monun.invfx.util/-lazy-val/referent.html
+$dokka.location:io.github.monun.invfx.util/LibraryLoader///PointingToDeclaration/invfx-api/io.github.monun.invfx.util/-library-loader/index.html
+$dokka.location:io.github.monun.invfx.util/LibraryLoader/loadImplement/#java.lang.Class[TypeParam(bounds=[kotlin.Any?])]#kotlin.Array[kotlin.Any?]/PointingToDeclaration/invfx-api/io.github.monun.invfx.util/-library-loader/load-implement.html
+$dokka.location:io.github.monun.invfx////PointingToDeclaration/invfx-api/io.github.monun.invfx/index.html
+$dokka.location:io.github.monun.invfx//openFrame/org.bukkit.entity.Player#io.github.monun.invfx.frame.InvFrame/PointingToDeclaration/invfx-api/io.github.monun.invfx/open-frame.html
+$dokka.location:io.github.monun.invfx//openWindow/org.bukkit.entity.Player#io.github.monun.invfx.InvWindow/PointingToDeclaration/invfx-api/io.github.monun.invfx/open-window.html
+$dokka.location:io.github.monun.invfx/InvDSL///PointingToDeclaration/invfx-api/io.github.monun.invfx/-inv-d-s-l/index.html
+$dokka.location:io.github.monun.invfx/InvFX///PointingToDeclaration/invfx-api/io.github.monun.invfx/-inv-f-x/index.html
+$dokka.location:io.github.monun.invfx/InvFX/frame/#kotlin.Int#net.kyori.adventure.text.Component#kotlin.Function1[io.github.monun.invfx.frame.InvFrame,kotlin.Unit]/PointingToDeclaration/invfx-api/io.github.monun.invfx/-inv-f-x/frame.html
+$dokka.location:io.github.monun.invfx/InvFXSupport///PointingToDeclaration/invfx-api/io.github.monun.invfx/-inv-f-x-support/index.html
+$dokka.location:io.github.monun.invfx/InvFXSupport/newInvFrame/#kotlin.Int#net.kyori.adventure.text.Component#kotlin.Function1[io.github.monun.invfx.frame.InvFrame,kotlin.Unit]/PointingToDeclaration/invfx-api/io.github.monun.invfx/-inv-f-x-support/new-inv-frame.html
+$dokka.location:io.github.monun.invfx/InvFXSupport/openFrame/#org.bukkit.entity.Player#io.github.monun.invfx.frame.InvFrame/PointingToDeclaration/invfx-api/io.github.monun.invfx/-inv-f-x-support/open-frame.html
+$dokka.location:io.github.monun.invfx/InvWindow///PointingToDeclaration/invfx-api/io.github.monun.invfx/-inv-window/index.html
+$dokka.location:io.github.monun.invfx/InvWindow/onClick/#org.bukkit.event.inventory.InventoryClickEvent/PointingToDeclaration/invfx-api/io.github.monun.invfx/-inv-window/on-click.html
+$dokka.location:io.github.monun.invfx/InvWindow/onClickBottom/#org.bukkit.event.inventory.InventoryClickEvent/PointingToDeclaration/invfx-api/io.github.monun.invfx/-inv-window/on-click-bottom.html
+$dokka.location:io.github.monun.invfx/InvWindow/onClickOutside/#org.bukkit.event.inventory.InventoryClickEvent/PointingToDeclaration/invfx-api/io.github.monun.invfx/-inv-window/on-click-outside.html
+$dokka.location:io.github.monun.invfx/InvWindow/onClose/#org.bukkit.event.inventory.InventoryCloseEvent/PointingToDeclaration/invfx-api/io.github.monun.invfx/-inv-window/on-close.html
+$dokka.location:io.github.monun.invfx/InvWindow/onDrag/#org.bukkit.event.inventory.InventoryDragEvent/PointingToDeclaration/invfx-api/io.github.monun.invfx/-inv-window/on-drag.html
+$dokka.location:io.github.monun.invfx/InvWindow/onDropItem/#org.bukkit.event.player.PlayerDropItemEvent/PointingToDeclaration/invfx-api/io.github.monun.invfx/-inv-window/on-drop-item.html
+$dokka.location:io.github.monun.invfx/InvWindow/onOpen/#org.bukkit.event.inventory.InventoryOpenEvent/PointingToDeclaration/invfx-api/io.github.monun.invfx/-inv-window/on-open.html
+$dokka.location:io.github.monun.invfx/InvWindow/onPickupItem/#org.bukkit.event.entity.EntityPickupItemEvent/PointingToDeclaration/invfx-api/io.github.monun.invfx/-inv-window/on-pickup-item.html
+io.github.monun.invfx
+io.github.monun.invfx.frame
+io.github.monun.invfx.util
+

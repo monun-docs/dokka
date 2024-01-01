@@ -1,0 +1,77 @@
+name: Dokka Docs build automation
+
+on:
+  push:
+  schedule:
+    - cron: "*/5 * * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        java: [17]
+      fail-fast: true
+    steps:
+      - name: JDK ${{ matrix.java }}
+        uses: actions/setup-java@v3.11.0
+        with:
+          java-version: ${{ matrix.java }}
+          distribution: 'zulu'
+
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Clone repositories
+        run: |
+          mkdir .workspace && cd .workspace
+          for project in tap kommand invfx; do
+            git clone https://github.com/monun/"$project"
+          done
+
+      - name: Build Dokka Docs
+        run: |
+          cd .workspace
+          for project in tap kommand invfx; do
+            cd "$project"
+            chmod +x ./gradlew
+            ./gradlew clean :"$project"-api:dokkaHtml
+            ls -al "$project"-api/build/dokka/html
+            cd ..
+          done
+
+      - name: Organize directories
+        run: |
+          cd .workspace
+          
+          for project in tap kommand invfx; do
+            rm -rf /home/runner/work/dokka/dokka/"$project"
+            mkdir -p /home/runner/work/dokka/dokka/"$project"
+            cp -r "$project"/"$project"-api/build/dokka/html/* /home/runner/work/dokka/dokka/"$project"
+          done
+          
+          cd ..
+          rm -rf .workspace
+
+      - name: Check changes / Commit & Push
+        run: |
+          git status
+          git diff
+          git add -A
+          git status
+          
+          if [[ `git status --porcelain` ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            
+            git checkout --orphan latest
+            git add -A
+            git commit -am "Upstream"
+            git branch -D master
+            git branch -m master
+            git push origin master -f
+          else
+            echo "nothing to commit, working tree clean"
+          fi

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>EntityProvider</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>tap-api</span>
+            </a>
+    </div>
+    <div>
+4.9.8    </div>
+    <div class="pull-right d-flex">
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":tap-api:dokkaHtml/main">jvm</button>
+        </div>
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="tap-api::io.github.monun.tap.event/EntityProvider///PointingToDeclaration//1328414917">
+  <div class="breadcrumbs"><a href="../../../index.html">tap-api</a><span class="delimiter">/</span><a href="../index.html">io.github.monun.tap.event</a><span class="delimiter">/</span><span class="current">EntityProvider</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Entity</span><wbr></wbr><span><span>Provider</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token keyword">interface </span><a href="index.html">EntityProvider</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator"> : </span><span data-unresolved-link="org.bukkit.event/Event///PointingToDeclaration/">Event</span><span class="token operator">&gt;</span></div><p class="paragraph">이벤트를 수신할 대상을 지정합니다. <span data-unresolved-link="org.bukkit.event.entity/EntityDamageByEntityEvent///PointingToDeclaration/">EntityDamageByEntityEvent</span>와 같이 <span data-unresolved-link="org.bukkit.entity/Entity///PointingToDeclaration/">Entity</span>가 여러개 포함된 이벤트일 경우 <a href="-entity-damage-by-entity/-damager/index.html">EntityProvider.EntityDamageByEntity.Damager</a>를 사용하여 공격자를 대상으로 지정할 수 있습니다.</p><h4 class="">Inheritors</h4><div class="table"><div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-default-provider/index.html">DefaultProvider</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-player-pickup-item/-pickup-item/index.html">PickupItem</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-player-interact-entity/-clicked/index.html">Clicked</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-entity-death/-killer/index.html">Killer</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-entity-damage-by-entity/-damager/index.html">Damager</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-entity-damage-by-entity/-shooter/index.html">Shooter</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-entity-target/-target/index.html">Target</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-entity-tame/-owner/index.html">Owner</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-projectile-launch/-shooter/index.html">Shooter</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-projectile-hit/-shooter/index.html">Shooter</a></div></span></div><div></div></div></div></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="1791499287%2FClasslikes%2F1328414917" anchor-label="EntityDamageByEntity" id="1791499287%2FClasslikes%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-entity-damage-by-entity/index.html"><span>Entity</span><wbr></wbr><span>Damage</span><wbr></wbr><span>By</span><wbr></wbr><span><span>Entity</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1791499287%2FClasslikes%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="-entity-damage-by-entity/index.html">EntityDamageByEntity</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2033381358%2FClasslikes%2F1328414917" anchor-label="EntityDeath" id="2033381358%2FClasslikes%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-entity-death/index.html"><span>Entity</span><wbr></wbr><span><span>Death</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2033381358%2FClasslikes%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="-entity-death/index.html">EntityDeath</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-291185349%2FClasslikes%2F1328414917" anchor-label="EntityTame" id="-291185349%2FClasslikes%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-entity-tame/index.html"><span>Entity</span><wbr></wbr><span><span>Tame</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-291185349%2FClasslikes%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="-entity-tame/index.html">EntityTame</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-842658257%2FClasslikes%2F1328414917" anchor-label="EntityTarget" id="-842658257%2FClasslikes%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-entity-target/index.html"><span>Entity</span><wbr></wbr><span><span>Target</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-842658257%2FClasslikes%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="-entity-target/index.html">EntityTarget</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1667940535%2FClasslikes%2F1328414917" anchor-label="PlayerInteractEntity" id="-1667940535%2FClasslikes%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-player-interact-entity/index.html"><span>Player</span><wbr></wbr><span>Interact</span><wbr></wbr><span><span>Entity</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1667940535%2FClasslikes%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="-player-interact-entity/index.html">PlayerInteractEntity</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1657850515%2FClasslikes%2F1328414917" anchor-label="PlayerPickupItem" id="1657850515%2FClasslikes%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-player-pickup-item/index.html"><span>Player</span><wbr></wbr><span>Pickup</span><wbr></wbr><span><span>Item</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1657850515%2FClasslikes%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="-player-pickup-item/index.html">PlayerPickupItem</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1176882699%2FClasslikes%2F1328414917" anchor-label="ProjectileHit" id="-1176882699%2FClasslikes%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-projectile-hit/index.html"><span>Projectile</span><wbr></wbr><span><span>Hit</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1176882699%2FClasslikes%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="-projectile-hit/index.html">ProjectileHit</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="797165191%2FClasslikes%2F1328414917" anchor-label="ProjectileLaunch" id="797165191%2FClasslikes%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-projectile-launch/index.html"><span>Projectile</span><wbr></wbr><span><span>Launch</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="797165191%2FClasslikes%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="-projectile-launch/index.html">ProjectileLaunch</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="887555448%2FFunctions%2F1328414917" anchor-label="getFrom" id="887555448%2FFunctions%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-from.html"><span>get</span><wbr></wbr><span><span>From</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="887555448%2FFunctions%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-from.html"><span class="token function">getFrom</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">event<span class="token operator">: </span><a href="index.html">T</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="org.bukkit.entity/Entity///PointingToDeclaration/">Entity</span><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

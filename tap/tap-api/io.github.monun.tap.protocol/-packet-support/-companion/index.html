@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Companion</title>
+    <link href="../../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../../styles/style.css" rel="Stylesheet">
+<link href="../../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../../styles/main.css" rel="Stylesheet">
+<link href="../../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../../index.html">
+                    <span>tap-api</span>
+            </a>
+    </div>
+    <div>
+4.9.8    </div>
+    <div class="pull-right d-flex">
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":tap-api:dokkaHtml/main">jvm</button>
+        </div>
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="tap-api::io.github.monun.tap.protocol/PacketSupport.Companion///PointingToDeclaration//1328414917">
+  <div class="breadcrumbs"><a href="../../../../index.html">tap-api</a><span class="delimiter">/</span><a href="../../index.html">io.github.monun.tap.protocol</a><span class="delimiter">/</span><a href="../index.html">PacketSupport</a><span class="delimiter">/</span><span class="current">Companion</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Companion</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="index.html">Companion</a> : <a href="../index.html">PacketSupport</a></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="1124041621%2FFunctions%2F1328414917" anchor-label="containerSetSlot" id="1124041621%2FFunctions%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../container-set-slot.html"><span>container</span><wbr></wbr><span>Set</span><wbr></wbr><span><span>Slot</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1124041621%2FFunctions%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../container-set-slot.html"><span class="token function">containerSetSlot</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">containerId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">stateId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">slot<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">item<span class="token operator">: </span><span data-unresolved-link="org.bukkit.inventory/ItemStack///PointingToDeclaration/">ItemStack</span><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="492074701%2FFunctions%2F1328414917" anchor-label="entityAnimation" id="492074701%2FFunctions%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../entity-animation.html"><span>entity</span><wbr></wbr><span><span>Animation</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="492074701%2FFunctions%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../entity-animation.html"><span class="token function">entityAnimation</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">entityId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">action<span class="token operator">: </span><a href="../../-animation-type/index.html">AnimationType</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../entity-animation.html"><span class="token function">entityAnimation</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">entityId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">action<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-660362809%2FFunctions%2F1328414917" anchor-label="entityEquipment" id="-660362809%2FFunctions%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../entity-equipment.html"><span>entity</span><wbr></wbr><span><span>Equipment</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-660362809%2FFunctions%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../entity-equipment.html"><span class="token function">entityEquipment</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">living<span class="token operator">: </span><span data-unresolved-link="org.bukkit.entity/LivingEntity///PointingToDeclaration/">LivingEntity</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../entity-equipment.html"><span class="token function">entityEquipment</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">entityId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">equipments<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><span class="token keyword"></span><span data-unresolved-link="org.bukkit.inventory/EquipmentSlot///PointingToDeclaration/">EquipmentSlot</span><span class="token punctuation">, </span><span class="token keyword"></span><span data-unresolved-link="org.bukkit.inventory/ItemStack///PointingToDeclaration/">ItemStack</span><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1815219903%2FFunctions%2F1328414917" anchor-label="entityHeadLook" id="1815219903%2FFunctions%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../entity-head-look.html"><span>entity</span><wbr></wbr><span>Head</span><wbr></wbr><span><span>Look</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1815219903%2FFunctions%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../entity-head-look.html"><span class="token function">entityHeadLook</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">entityId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">yaw<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2024046683%2FFunctions%2F1328414917" anchor-label="entityMetadata" id="2024046683%2FFunctions%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../entity-metadata.html"><span>entity</span><wbr></wbr><span><span>Metadata</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2024046683%2FFunctions%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../entity-metadata.html"><span class="token function">entityMetadata</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">entity<span class="token operator">: </span><span data-unresolved-link="org.bukkit.entity/Entity///PointingToDeclaration/">Entity</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-683612526%2FFunctions%2F1328414917" anchor-label="entityRotation" id="-683612526%2FFunctions%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../entity-rotation.html"><span>entity</span><wbr></wbr><span><span>Rotation</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-683612526%2FFunctions%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../entity-rotation.html"><span class="token function">entityRotation</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">entityId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">yaw<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a><span class="token punctuation">, </span></span><span class="parameter ">pitch<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a><span class="token punctuation">, </span></span><span class="parameter ">onGround<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-68212276%2FFunctions%2F1328414917" anchor-label="entityStatus" id="-68212276%2FFunctions%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../entity-status.html"><span>entity</span><wbr></wbr><span><span>Status</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-68212276%2FFunctions%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../entity-status.html"><span class="token function">entityStatus</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">entityId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">data<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte/index.html">Byte</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-508969607%2FFunctions%2F1328414917" anchor-label="entityTeleport" id="-508969607%2FFunctions%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../entity-teleport.html"><span>entity</span><wbr></wbr><span><span>Teleport</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-508969607%2FFunctions%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../entity-teleport.html"><span class="token function">entityTeleport</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">entity<span class="token operator">: </span><span data-unresolved-link="org.bukkit.entity/Entity///PointingToDeclaration/">Entity</span><span class="token punctuation">, </span></span><span class="parameter ">loc<span class="token operator">: </span><span data-unresolved-link="org.bukkit/Location///PointingToDeclaration/">Location</span><span class="token punctuation">, </span></span><span class="parameter ">onGround<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../entity-teleport.html"><span class="token function">entityTeleport</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">entityId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">x<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html">Double</a><span class="token punctuation">, </span></span><span class="parameter ">y<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html">Double</a><span class="token punctuation">, </span></span><span class="parameter ">z<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html">Double</a><span class="token punctuation">, </span></span><span class="parameter ">yaw<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a><span class="token punctuation">, </span></span><span class="parameter ">pitch<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a><span class="token punctuation">, </span></span><span class="parameter ">onGround<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2049032317%2FFunctions%2F1328414917" anchor-label="entityVelocity" id="-2049032317%2FFunctions%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../entity-velocity.html"><span>entity</span><wbr></wbr><span><span>Velocity</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2049032317%2FFunctions%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../entity-velocity.html"><span class="token function">entityVelocity</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">entityId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">vector<span class="token operator">: </span><span data-unresolved-link="org.bukkit.util/Vector///PointingToDeclaration/">Vector</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-910727998%2FFunctions%2F1328414917" anchor-label="hurtAnimation" id="-910727998%2FFunctions%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../hurt-animation.html"><span>hurt</span><wbr></wbr><span><span>Animation</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-910727998%2FFunctions%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../hurt-animation.html"><span class="token function">hurtAnimation</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">entityId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">yaw<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="986336534%2FFunctions%2F1328414917" anchor-label="mount" id="986336534%2FFunctions%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../mount.html"><span><span>mount</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="986336534%2FFunctions%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../mount.html"><span class="token function">mount</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">entityId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">mountEntityIds<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int-array/index.html">IntArray</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1921645387%2FFunctions%2F1328414917" anchor-label="playerInfoAction" id="1921645387%2FFunctions%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../player-info-action.html"><span>player</span><wbr></wbr><span>Info</span><wbr></wbr><span><span>Action</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1921645387%2FFunctions%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../player-info-action.html"><span class="token function"><strike>playerInfoAction</strike></span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">action<span class="token operator">: </span><a href="../../-player-info-action/index.html">PlayerInfoAction</a><span class="token punctuation">, </span></span><span class="parameter ">player<span class="token operator">: </span><span data-unresolved-link="org.bukkit.entity/Player///PointingToDeclaration/">Player</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="888049797%2FFunctions%2F1328414917" anchor-label="playerInfoRemove" id="888049797%2FFunctions%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../player-info-remove.html"><span>player</span><wbr></wbr><span>Info</span><wbr></wbr><span><span>Remove</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="888049797%2FFunctions%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../player-info-remove.html"><span class="token function">playerInfoRemove</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">list<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html">UUID</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div><div class="brief "><p class="paragraph">Unsupported in 1.18 ~ 1.19.2</p></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../player-info-remove.html"><span class="token function">playerInfoRemove</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">player<span class="token operator">: </span><span data-unresolved-link="org.bukkit.entity/Player///PointingToDeclaration/">Player</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-347670783%2FFunctions%2F1328414917" anchor-label="playerInfoUpdate" id="-347670783%2FFunctions%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../player-info-update.html"><span>player</span><wbr></wbr><span>Info</span><wbr></wbr><span><span>Update</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-347670783%2FFunctions%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../player-info-update.html"><span class="token function">playerInfoUpdate</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">action<span class="token operator">: </span><a href="../../-player-info-update-action/index.html">PlayerInfoUpdateAction</a><span class="token punctuation">, </span></span><span class="parameter ">player<span class="token operator">: </span><span data-unresolved-link="org.bukkit.entity/Player///PointingToDeclaration/">Player</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2093136090%2FFunctions%2F1328414917" anchor-label="relEntityMove" id="-2093136090%2FFunctions%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../rel-entity-move.html"><span>rel</span><wbr></wbr><span>Entity</span><wbr></wbr><span><span>Move</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2093136090%2FFunctions%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../rel-entity-move.html"><span class="token function">relEntityMove</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">entityId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">move<span class="token operator">: </span><span data-unresolved-link="org.bukkit.util/Vector///PointingToDeclaration/">Vector</span><span class="token punctuation">, </span></span><span class="parameter ">onGround<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../rel-entity-move.html"><span class="token function">relEntityMove</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">entityId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">deltaX<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-short/index.html">Short</a><span class="token punctuation">, </span></span><span class="parameter ">deltaY<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-short/index.html">Short</a><span class="token punctuation">, </span></span><span class="parameter ">deltaZ<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-short/index.html">Short</a><span class="token punctuation">, </span></span><span class="parameter ">onGround<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1670348102%2FFunctions%2F1328414917" anchor-label="relEntityMoveLook" id="1670348102%2FFunctions%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../rel-entity-move-look.html"><span>rel</span><wbr></wbr><span>Entity</span><wbr></wbr><span>Move</span><wbr></wbr><span><span>Look</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1670348102%2FFunctions%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../rel-entity-move-look.html"><span class="token function">relEntityMoveLook</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">entityId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">delta<span class="token operator">: </span><span data-unresolved-link="org.bukkit.util/Vector///PointingToDeclaration/">Vector</span><span class="token punctuation">, </span></span><span class="parameter ">yaw<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a><span class="token punctuation">, </span></span><span class="parameter ">pitch<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a><span class="token punctuation">, </span></span><span class="parameter ">onGround<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../rel-entity-move-look.html"><span class="token function">relEntityMoveLook</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">entityId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">deltaX<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-short/index.html">Short</a><span class="token punctuation">, </span></span><span class="parameter ">deltaY<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-short/index.html">Short</a><span class="token punctuation">, </span></span><span class="parameter ">deltaZ<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-short/index.html">Short</a><span class="token punctuation">, </span></span><span class="parameter ">yaw<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a><span class="token punctuation">, </span></span><span class="parameter ">pitch<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a><span class="token punctuation">, </span></span><span class="parameter ">onGround<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1221824283%2FFunctions%2F1328414917" anchor-label="removeEntities" id="1221824283%2FFunctions%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../remove-entities.html"><span>remove</span><wbr></wbr><span><span>Entities</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1221824283%2FFunctions%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../remove-entities.html"><span class="token function">removeEntities</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>entityIds<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="901837420%2FFunctions%2F1328414917" anchor-label="removeEntity" id="901837420%2FFunctions%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../remove-entity.html"><span>remove</span><wbr></wbr><span><span>Entity</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="901837420%2FFunctions%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../remove-entity.html"><span class="token function">removeEntity</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">entityId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="765534713%2FFunctions%2F1328414917" anchor-label="takeItem" id="765534713%2FFunctions%2F1328414917" data-filterable-set=":tap-api:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":tap-api:dokkaHtml/main" data-filterable-set=":tap-api:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../take-item.html"><span>take</span><wbr></wbr><span><span>Item</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="765534713%2FFunctions%2F1328414917"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":tap-api:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../take-item.html"><span class="token function">takeItem</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">entityId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">collectorId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">stackAmount<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../-packet-container/index.html">PacketContainer</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>
